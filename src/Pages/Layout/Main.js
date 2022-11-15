@@ -1,6 +1,5 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import CarouselSlider from '../Home/CarouselSlider/CarouselSlider';
 import Banner1 from '../Shared/Banner1/Banner1';
 import Footer from '../Shared/Footer/Footer';
 import Footer2 from '../Shared/Footer/Footer2';

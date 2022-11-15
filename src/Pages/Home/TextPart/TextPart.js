@@ -119,24 +119,31 @@ const TextPart = () => {
 
             {/*----------------- card  -----------------*/}
             <div className="container mt-5">
+                
                 <div className="row row-cols-1 row-cols-md-3 gap-4 gap-md-0">
 
-                    <div className='col cards'>
-                        <h5>NIST School Programs</h5>
-                        <p>NIST School Programs The curriculum for every class is designed based on the Ministry of Education, Ontario, Canada. The academic program of NIST includes the</p>
-                        <Link ><small>READ MORE <FaAngleDoubleRight></FaAngleDoubleRight></small></Link>
+                    <div className='col'>
+                        <div className='cards'>
+                            <h5>NIST School Programs</h5>
+                            <p>NIST School Programs The curriculum for every class is designed based on the Ministry of Education, Ontario, Canada. The academic program of NIST includes the</p>
+                            <Link ><small>READ MORE <FaAngleDoubleRight></FaAngleDoubleRight></small></Link>
+                        </div>
                     </div>
 
-                    <div className='col cards'>
-                        <h5>Inclusive Education</h5>
-                        <p>Commitment to Inclusive Education At NIST, students are challenged to discover their God-given skills and talents in a team-centered environment. Teachers balance intellectual stimulation with</p>
-                        <Link ><small>READ MORE <FaAngleDoubleRight></FaAngleDoubleRight></small></Link>
+                    <div className='col'>
+                        <div className='cards'>
+                            <h5>Inclusive Education</h5>
+                            <p>Commitment to Inclusive Education At NIST, students are challenged to discover their God-given skills and talents in a team-centered environment. Teachers balance intellectual stimulation with</p>
+                            <Link ><small>READ MORE <FaAngleDoubleRight></FaAngleDoubleRight></small></Link>
+                       </div>
                     </div>
                     
-                    <div className='col cards'>
-                        <h5>Admission Process Guideline</h5>
-                        <p>Admissions at NIST Get enroll at NIST which facilitates blended (i.e., pre-recorded video clips, virtual classroom) course offering. Is the NIST for me? As a</p>
-                        <Link ><small>READ MORE <FaAngleDoubleRight></FaAngleDoubleRight></small></Link>
+                    <div className='col'>
+                        <div className='cards'>
+                            <h5>Admission Process Guideline</h5>
+                            <p>Admissions at NIST Get enroll at NIST which facilitates blended (i.e., pre-recorded video clips, virtual classroom) course offering. Is the NIST for me? As a Is the NIST for me?</p>
+                            <Link ><small>READ MORE <FaAngleDoubleRight></FaAngleDoubleRight></small></Link>
+                        </div>
                     </div>
                 </div>
             </div>
