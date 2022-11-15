@@ -1,0 +1,19 @@
+.bg{
+    background-color: #013769;
+}
+.footer-a{
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    padding: 15px 0;
+    /* gap: 20px; */
+}
+.footer-a a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 8px 0;
+}
+.footer-a a:hover{
+    border-bottom: 2px solid gray;
+}

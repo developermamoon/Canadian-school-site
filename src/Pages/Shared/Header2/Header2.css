@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #0A0E4F;
+    color: white;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 0 8px;
+}
+
+
+
+.navbar a:hover{
+    background-color: #0A0E4F;
+    color: white;
+}
+
+.dropdown-menu a{
+    padding: 10px 8px;
+}
+
+.dropdown-menu{
+    background-color: #199286;
+}
+.dropdown-menu a{
+    background-color: #199286;
+    /* width: 100%; */
+    color: white;
+}
+
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    background-color: #0A0E4F;
+    color: white;
+}

@@ -1,0 +1,47 @@
+.bg-2{
+    background-color: #0A0E4F;
+}
+.row-5{
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    color: white;
+    padding: 50px 0;
+    /* gap: 20px; */
+}
+
+.aboutus{
+    text-align: justify;
+}
+input, textarea{
+    padding: 10px 15px;
+}
+input[type=submit]{
+    background-color: grey;
+    border: 0;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+input[type= submit]:hover{
+    background-color: #4C4F7F;
+    transition: 0.5s;
+}
+
+hr{
+    color: white;
+    /* height: 5px; */
+}
+.copyright{
+    color: white;
+}
+.copyright a{
+    color: white;
+}
+
+.terms a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}

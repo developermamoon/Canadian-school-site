@@ -1,0 +1,41 @@
+
+.logo{
+    width: 200px;
+}
+
+.row-2{
+    /* display: grid; */
+    /* grid-template-columns: 1fr 3fr 1fr; */
+}
+
+.school-name{
+    font-size: 26px;
+    font-family: 'Chonburi', cursive;
+    color: #0A0E4F;
+}
+
+.canada{
+    color: #199286;
+    font-size: 26px;
+    font-family: 'Castoro', serif;
+}
+
+.linking-life{
+    color: #0A0E4F;
+    font-size: 24px;
+    font-family: 'Castoro', serif;
+    font-weight: bold;
+}
+
+.time-text{
+    font-weight: bold;
+}
+
+.BSID{
+    background-color: #EAF5F1;
+    color: #0A0E64;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Castoro', serif;
+}

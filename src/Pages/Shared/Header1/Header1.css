@@ -1,0 +1,13 @@
+.gradient{
+    background: rgb(8, 20, 37);
+    background: linear-gradient(180deg, rgba(8, 20, 37, 1) 0%, rgba(9, 34, 41, 1) 35%, rgba(10, 57, 48, 1) 100%);
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color: white;
+}
