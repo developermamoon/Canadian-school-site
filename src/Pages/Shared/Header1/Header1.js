@@ -39,12 +39,12 @@ const Header1 = () => {
 
                             
                             <NavDropdown title="LOGIN" id="collasible-nav-dropdown">
-                                <Link>Student Portal</Link>
-                                <Link>Teacher Portal</Link>
-                                <Link>Employee/Staff Portal</Link>
-                                <Link>Business Partner Portal</Link>
-                                <Link>Parent Portal</Link>
-                                <Link>Ministry Portal</Link>
+                                <Link to='/login'>Student Portal</Link>
+                                <Link to='/login'>Teacher Portal</Link>
+                                <Link to='/login'>Employee/Staff Portal</Link>
+                                <Link to='/login'>Business Partner Portal</Link>
+                                <Link to='/login'>Parent Portal</Link>
+                                <Link to='/login'>Ministry Portal</Link>
                             </NavDropdown>
 
 

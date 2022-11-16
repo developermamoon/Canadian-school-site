@@ -1,0 +1,13 @@
+.login-logo{
+    width: 180px;
+}
+
+.login-bg{
+    background-color: #38AFA9;
+}
+
+.link-colors, .link-colors a{
+    color: white;
+    text-decoration: none;
+}
+
