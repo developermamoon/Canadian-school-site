@@ -22,7 +22,7 @@ const Header1 = () => {
 
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Link>CONTACT US</Link>
+                            <Link to='/contact-us'>CONTACT US</Link>
                             <Link>NSRIC</Link>
                             <Link>CONFERENCE</Link>
                             <Link>WANSEE</Link>

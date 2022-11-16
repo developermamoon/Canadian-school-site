@@ -6,7 +6,7 @@ const Banner1 = () => {
     return (
         <div>
             <div className="">
-                <div className="row row-cols-1 row-cols-md-3">
+                <div className="row row-cols-1 row-cols-md-3 g-0">
 
                     <div className="col col-md-2 px-0 text-center d-flex justify-content-center align-items-center">
                         <p className='time-text'>NSRIC Time <br />
@@ -25,7 +25,7 @@ const Banner1 = () => {
                         </div>
                     </div>
 
-                    <div className="col col-md-2 px-0 d-flex justify-content-center align-items-center">
+                    <div className="col col-md-2 px-0 text-center d-flex justify-content-center align-items-center">
                         <p className='time-text'>Local Time</p>
                     </div>
                 </div>
