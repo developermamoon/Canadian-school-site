@@ -28,7 +28,7 @@ const Header1 = () => {
                             <Link>WANSEE</Link>
                             
                             <NavDropdown title="REGISTRATION" id="collasible-nav-dropdown">
-                                <Link>Student Registration</Link>
+                                <Link to='/student-registration'>Student Registration</Link>
                                 <Link>Teacher Registration</Link>
                                 <Link>Employee/Staff Registration</Link>
                                 <Link>Business Partner Registation</Link>
