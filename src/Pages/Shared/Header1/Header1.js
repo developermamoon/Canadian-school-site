@@ -31,7 +31,7 @@ const Header1 = () => {
                                 <Link to='/student-registration'>Student Registration</Link>
                                 <Link>Teacher Registration</Link>
                                 <Link>Employee/Staff Registration</Link>
-                                <Link>Business Partner Registation</Link>
+                                <Link to='/business-partner-registration'>Business Partner Registation</Link>
                                 <Link>Parent Registration</Link>                              
                                 <Link>Ministry Registration</Link>
                             </NavDropdown>
