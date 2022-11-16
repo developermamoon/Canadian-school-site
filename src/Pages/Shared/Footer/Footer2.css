@@ -28,7 +28,7 @@ input[type= submit]:hover{
     transition: 0.5s;
 }
 
-hr{
+.blackhorizontal{
     color: white;
     /* height: 5px; */
 }
