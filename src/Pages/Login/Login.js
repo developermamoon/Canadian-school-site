@@ -36,7 +36,7 @@ const Login = () => {
                     </form>
 
                     <small className='link-colors'>
-                        <Link to='/lost-password'>Lost your password? </Link>
+                        <Link to='/forget-password'>Lost your password? </Link>
                         | New User?
                         <Link to='/student-registration'> Register Here</Link>
                     </small>
