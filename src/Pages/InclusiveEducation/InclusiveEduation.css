@@ -1,0 +1,40 @@
+.icons{
+    background-color: #7C5EFF;
+    border-radius: 50%;
+    padding: 8px;
+    color: white;
+}
+
+.blue-bg-round{
+    background-color: #174789;
+    opacity: 1;
+    border-radius: 0px 0px 200px 0px;
+}
+
+.mid-line{
+    border-right: 2px solid black;
+    height: auto;
+}
+
+.left-text{
+    text-align: justify;
+}
+
+.right-text{
+    font-family: 'Poppins', sans-serif;
+}
+
+.gray-bg{
+    background-color: #E7E0EA;
+}
+
+.title p{
+    text-align: justify;
+}
+
+ /*------------------- Mobile view  ---------------*/
+ @media only screen and (max-width: 576px) {
+    .mid-line {
+            border-right: 0;
+        }
+ }

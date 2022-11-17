@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import ForgetPassword from "../Pages/ForgetPassword/ForgetPassword";
 import Home from "../Pages/Home/Home";
+import InclusiveEducation from "../Pages/InclusiveEducation/InclusiveEducation";
 import Main from "../Pages/Layout/Main";
 import Login from "../Pages/Login/Login";
 import BusinessPartnerRegistration from "../Pages/RegisterPage/BusinessPartnerRegistration/BusinessPartnerRegistration";
@@ -33,6 +34,8 @@ const router = createBrowserRouter([
             { path: '/login', element: <Login></Login> },
 
             { path: '/forget-password', element: <ForgetPassword></ForgetPassword> },
+
+            { path: '/inclusive-education', element: <InclusiveEducation></InclusiveEducation> },
         ]
     }
 ])
