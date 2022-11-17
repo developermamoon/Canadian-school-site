@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
-        <div className='d-flex justify-content-center '>
+        <div className='d-flex justify-content-center'>
             <div className='login-bg px-5'>
                 <div className='text-center'>
                     <img className='login-logo mt-5' src={logo} alt="" />

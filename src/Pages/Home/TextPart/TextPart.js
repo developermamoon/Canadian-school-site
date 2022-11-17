@@ -118,7 +118,7 @@ const TextPart = () => {
             </div>
 
             {/*----------------- card  -----------------*/}
-            <div className="container mt-5">
+            <div className="container my-5">
                 
                 <div className="row row-cols-1 row-cols-md-3 gap-4 gap-md-0">
 
