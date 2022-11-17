@@ -3,27 +3,31 @@ import boximage from '../../Images/back2school.jpg'
 import './InclusiveEduation.css'
 import { FaDatabase, FaCrown, FaMedal, FaStar, FaChevronCircleRight } from "react-icons/fa";
 import { GiCutDiamond } from "react-icons/gi";
+import { Link } from 'react-router-dom';
 
 const InclusiveEducation = () => {
     return (
         <div>
             <div className='blue-bg-round'>
-                <div className='mx-5 px-md-5 py-4'>
 
-                    <div className="row row-cols-1 row-cols-md-2">
-                        <div className='col col-md-6'>
-                            <div className='text-white fw-bold left-text'>
+                    <div className='blue-bg-round-color'></div>
+
+                    <div className='mx-5 px-md-5 py-4 '>
+                        <div className="row row-cols-1 row-cols-md-2">
+                            
+                        <div className='col col-md-6 show-front'>
+                                <div className='text-white fw-bold left-text'>
                                 <h2 className='pb-3'>Commitment to inclusive Education</h2>
-                                <p>At NIST, students are challenged to discover their God-given skills and talents in a team-centered environment. Teachers balance intellectual stimulation with skill development, teaching values for life beyond the online classroom. This approach allows our school to provide an inclusive education, which centers around all students.  NIST uses a world-renowned approach of cultivating unique skill sets to provide a quality education and growth of critical qualities required for success.  With an inclusive educational lens, the NIST community strives for excellence required to represent our school with integrity at all times.
-                                </p>
+                                    <p>At NIST, students are challenged to discover their God-given skills and talents in a team-centered environment. Teachers balance intellectual stimulation with skill development, teaching values for life beyond the online classroom. This approach allows our school to provide an inclusive education, which centers around all students.  NIST uses a world-renowned approach of cultivating unique skill sets to provide a quality education and growth of critical qualities required for success.  With an inclusive educational lens, the NIST community strives for excellence required to represent our school with integrity at all times.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className='col col-md-6 text-center'>
+                                <Link to='/student-registration'><img className='my-3 my-md-0 img-fluid' src={boximage} alt="" /></Link>
                             </div>
                         </div>
-
-                        <div className='col col-md-6 text-center'>
-                            <img className='my-3 my-md-0 img-fluid' src={boximage} alt="" />
-                        </div>
                     </div>
-                </div>
             </div>
 
 
