@@ -17,7 +17,7 @@ const Footer = () => {
                     </div>
                     <div className="col">
                         <Link to='/admission'>Admission</Link>
-                        <Link>Admission Process Guideline</Link>
+                        <a href='#admission-procedure-guideline'>Admission Process Guideline</a>
                         <Link>Tuition Fees</Link>
                         <Link>Scholarships</Link>
                         <Link>Financial Aid</Link>

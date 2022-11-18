@@ -52,11 +52,11 @@ const Admissions = () => {
             {/*------- admission requirements  */}
             <div>
                 <div className="container poppins">
-                    <h2 className='blueColor fw-bold text-center py-3'>Admission Requirements</h2>
+                    <h2 className='blueColor fw-bold text-center py-3' id='admission-procedure-guideline'>Admission Requirements</h2>
 
-                    <div className="row row-cols-1 row-cols-md-2 admission-req g-4">
+                    <div className="row gap-5 admission-req ">
 
-                        <div className="col border border-3 bg-white px-md-5">
+                        <div className="col bg-white px-md-5">
                             <div>
                                 <div className='text-center'>
                                     <img className='' src={ElementarySchool} alt="" />
@@ -84,7 +84,7 @@ const Admissions = () => {
                         </div>
 
                         
-                        <div className="col border border-3 bg-white px-md-5">
+                        <div className="col bg-white px-md-5">
                             <div>
                                 <div className='text-center'>
                                     <img className='' src={ElementarySchool} alt="" />
@@ -133,9 +133,9 @@ const Admissions = () => {
 
                     <p className='fs-5'>Admission to NIST requires that each student demonstrates academic and behavioral readiness through the following application process:</p>
 
-                    <div className="row row-cols-1 row-cols-md-2 admission-req g-4">
+                    <div className="row gap-5 admission-req g-4">
 
-                        <div className="col border border-3 bg-white px-md-5">
+                        <div className="col bg-white px-md-5">
                             <div>
                                 <div className='text-center'>
                                     <img className='' src={kindergarden7} alt="" />
@@ -187,7 +187,7 @@ const Admissions = () => {
                         </div>
 
 
-                        <div className="col border border-3 bg-white px-md-5">
+                        <div className="col bg-white px-md-5">
                             <div>
                                 <div className='text-center'>
                                     <img className='' src={kindergarden8} alt="" />
@@ -419,7 +419,7 @@ const Admissions = () => {
 
 
             {/* -----------mid year application  */}
-            <div className='px-5'>
+            <div className='container'>
                 <h2 className='blueColor fw-bold text-center py-3'>Mid-Year Application</h2>
 
                 <p className='fs-5'>Although the academic year starts in September, students are accepted throughout the year depending on the availability of places. Mid-Year admission for Grade 12 is not welcomed, as a considerable amount of examination work and credit accumulation will be required.</p>
@@ -427,7 +427,7 @@ const Admissions = () => {
 
 
             {/* -----------conditional Admission */}
-            <div className='px-5'>
+            <div className='container'>
                 <h2 className='blueColor fw-bold text-center py-3'>Conditional Admission</h2>
 
                 <p className='fs-5'>Students with conditional admission status, will receive a “Conditional Admission Letter” and are allowed to start their studies at the school as specified below:</p>
@@ -442,7 +442,7 @@ const Admissions = () => {
             </div>
 
             {/* -----------re admission  */}
-            <div className='px-5'>
+            <div className='container'>
                 <h2 className='blueColor fw-bold text-center py-3'>Re-admission</h2>
 
                 <p className='fs-5'>A student who voluntarily withdraws and does not register for two consecutive school semesters is required to apply for re-admission and to pay a re-admission fee, unless otherwise advised. Any student who is dismissed due to academic deficiency is not allowed to register for one full school year. Any student who wishes to be readmitted must re-apply as a new student. Students who have been granted an official leave of absence may resume their studies without applying for re-admission.</p>
@@ -451,7 +451,7 @@ const Admissions = () => {
 
 
             {/* -----------student with special needs  */}
-            <div className='px-5'>
+            <div className='container'>
                 <h2 className='blueColor fw-bold text-center py-3'>Student with special needs</h2>
 
                 <p className='fs-5'>At NIST we welcome children with a range of learning preferences, including students of determination (students with special education needs and disabilities), and students who are gifted and talented. We are committed to educating all students in a common learning environment with similar-aged peers. At NIST, diversity is taken seriously, and respectful relationships are continually promoted. All children participate fully in learning by way of adjustments and teaching strategies tailored to meet the needs of a diverse range of learners reflected in wider society.</p>
@@ -459,10 +459,10 @@ const Admissions = () => {
 
 
             {/* -----------appeals  */}
-            <div className='px-5'>
+            <div className='container'>
                 <h2 className='blueColor fw-bold text-center py-3'>Appeals</h2>
 
-                <p className='fs-5'>A prospective student may appeal a decision related to Admission through the Superintendent’s office.</p>
+                <p className='fs-5'>A prospective student may appeal a decision related to Admission through the Superintendent's office.</p>
             </div>
 
 

@@ -41,8 +41,8 @@ const Header2 = () => {
                                 
 
 
-                                <Link to="#action/3.1">Admission Requirements</Link>
-                                <Link to="#action/3.1">Enrolement and Admission Procedure</Link>
+                                <Link to="/admission">Admission Requirements</Link>
+                                <Link to="/admission">Enrolement and Admission Procedure</Link>
 
                                     <NavDropdown title="Tuition Fees and Scholarship" id="collasible-nav-dropdown">
                                         <Link to="#action/">Tution Fee</Link>
@@ -55,7 +55,7 @@ const Header2 = () => {
                                     </NavDropdown>
                                 
 
-                                <Link to="#action/3.3">Submit Online Application Form Now</Link>
+                                <Link to="/student-registration">Submit Online Application Form Now</Link>
 
                                 <Link to="#action/3.4">
                                     Download Admission Form Now
