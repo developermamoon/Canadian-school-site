@@ -16,7 +16,7 @@ const InclusiveEducation = () => {
                         <div className="row row-cols-1 row-cols-md-2">
                             
                         <div className='col col-md-6 show-front'>
-                                <div className='text-white fw-bold left-text'>
+                            <div className='text-white fw-bold justify-text'>
                                 <h2 className='pb-3'>Commitment to inclusive Education</h2>
                                     <p>At NIST, students are challenged to discover their God-given skills and talents in a team-centered environment. Teachers balance intellectual stimulation with skill development, teaching values for life beyond the online classroom. This approach allows our school to provide an inclusive education, which centers around all students.  NIST uses a world-renowned approach of cultivating unique skill sets to provide a quality education and growth of critical qualities required for success.  With an inclusive educational lens, the NIST community strives for excellence required to represent our school with integrity at all times.
                                     </p>
@@ -30,17 +30,17 @@ const InclusiveEducation = () => {
                     </div>
             </div>
 
-
+            {/*-------------------- how we provide  */}
             <div>
                 <div className="container py-4">
                     <div className="row row-cols-1 row-cols-md-2">
-                        <div className="col col-md-4">
-                            <h3 className='mid-line'>How do we provide Inclusive Education?</h3>
+                        <div className="col col-md-4 d-flex align-items-center">
+                            <h3 className=''>How do we provide Inclusive Education?</h3>
                         </div>
 
 
-                        <div className="col col-md-8">
-                            <p className='right-text'>The following six principles are key to achieving the vision for an inclusive education system. These principles can guide and inform value-based and learner-centered decisions related to policies, practices and actions at every level of the education system.</p>
+                        <div className="col col-md-8 d-flex align-items-center">
+                            <p className='mid-line right-text'>The following six principles are key to achieving the vision for an inclusive education system. These principles can guide and inform value-based and learner-centered decisions related to policies, practices and actions at every level of the education system.</p>
                         </div>
                     </div>
                 </div>

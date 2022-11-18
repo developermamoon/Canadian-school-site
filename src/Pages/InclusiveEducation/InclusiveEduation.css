@@ -6,7 +6,8 @@
 }
 
 .blue-bg-round{
-    background-image: url('../../Images/bg-2.png');background-position: center;
+    background-image: url('../../Images/bg-2.png');
+    background-position: center;
     border-radius: 0px 0px 200px 0px;
     position: relative;
 }
@@ -25,11 +26,12 @@
 }
 
 .mid-line{
-    border-right: 2px solid black;
-    height: auto;
+    border-left: 2px solid black;
+    height: 100%;
+    padding: 0 0 0 50px ;
 }
 
-.left-text{
+.justify-text{
     text-align: justify;
 }
 

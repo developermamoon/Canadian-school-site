@@ -13,10 +13,10 @@ const Footer = () => {
                         <Link>Objectives</Link>
                         <Link>Who We Are</Link>
                         <Link>Equivalency</Link>
-                        <Link>Inclusive Education</Link>
+                        <Link to='/inclusive-education'>Inclusive Education</Link>
                     </div>
                     <div className="col">
-                        <Link>Admission</Link>
+                        <Link to='/admission'>Admission</Link>
                         <Link>Admission Process Guideline</Link>
                         <Link>Tuition Fees</Link>
                         <Link>Scholarships</Link>

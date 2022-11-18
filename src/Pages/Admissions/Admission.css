@@ -1,0 +1,70 @@
+.admission-bg{
+    background-color: #F1F1F1;
+}
+
+.admission-bg-round{
+    background-image: url('../../Images/admission-bg.png');
+    background-position: top;
+    border-radius: 0px 0px 200px 0px;
+    position: relative;
+}
+
+.admission-bg-color{
+    background-color: #75646B;
+        border-radius: 0px 0px 200px 0px;
+        opacity: 0.6;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+}
+
+.show-front {
+    position: relative;
+}
+
+.left-side-2{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.admission-req .col{
+    border-radius: 20px;
+}
+
+.admission-req ol{
+    text-align: justify;
+}
+
+.admission-req ol li{
+    line-height: 30px;
+}
+
+
+.admission-req img{
+    width: 80%;
+    border-radius: 30px;
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.green-color-link{
+    color: #199286;
+    text-decoration: none;
+}
+
+/*------------------- tab view  ---------------*/
+
+@media only screen and (min-width: 577px) and (max-width: 990px) {}
+
+
+
+/*------------------- Mobile view  ---------------*/
+@media only screen and (max-width: 576px) {
+    .admission-req img {
+            width: 100%;
+            border-radius: 30px;
+        }
+}
