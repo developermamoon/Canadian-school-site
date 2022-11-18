@@ -55,6 +55,17 @@
     text-decoration: none;
 }
 
+.orange-icons {
+    background-color: #ED508B;
+    border-radius: 50%;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
 /*------------------- tab view  ---------------*/
 
 @media only screen and (min-width: 577px) and (max-width: 990px) {}

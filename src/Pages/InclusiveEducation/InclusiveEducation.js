@@ -58,7 +58,7 @@ const InclusiveEducation = () => {
                                 <div className="title">
                                     <div className='d-flex'>
                                         <div className="fs-1 d-flex me-3">
-                                            <FaCrown className='icons'></FaCrown>
+                                            <FaCrown className='purple-icons'></FaCrown>
                                         </div>
                                         <div>
                                             <h4>Anticipate, value and support diversity and learner differences</h4>
@@ -75,7 +75,7 @@ const InclusiveEducation = () => {
                                 <div className="title">
                                     <div className='d-flex'>
                                         <div className="fs-1 d-flex me-3">
-                                            <FaMedal className='icons'></FaMedal>
+                                            <FaMedal className='purple-icons'></FaMedal>
                                         </div>
                                         <div>
                                             <h4>Encourage high expectations for all learners</h4>
@@ -92,7 +92,7 @@ const InclusiveEducation = () => {
                                 <div className="title">
                                     <div className='d-flex'>
                                         <div className="fs-1 d-flex me-3">
-                                            <FaStar className='icons'></FaStar>
+                                            <FaStar className='purple-icons'></FaStar>
                                         </div>
                                         <div>
                                             <h4>
@@ -110,7 +110,7 @@ const InclusiveEducation = () => {
                                 <div className="title">
                                     <div className='d-flex'>
                                         <div className="fs-1 d-flex me-3">
-                                            <FaChevronCircleRight className='icons'></FaChevronCircleRight>
+                                            <FaChevronCircleRight className='purple-icons'></FaChevronCircleRight>
                                         </div>
                                         <div>
                                             <h4>Remove barriers within learning environments</h4>
@@ -127,7 +127,7 @@ const InclusiveEducation = () => {
                                 <div className="title">
                                     <div className='d-flex'>
                                         <div className="fs-1 d-flex me-3">
-                                            <FaDatabase className='icons'></FaDatabase>
+                                            <FaDatabase className='purple-icons'></FaDatabase>
                                         </div>
                                         <div>
                                             <h4>Build capacity</h4>
@@ -144,7 +144,7 @@ const InclusiveEducation = () => {
                                 <div className="title">
                                     <div className='d-flex'>
                                         <div className="fs-1 d-flex me-3">
-                                            <GiCutDiamond className='icons'></GiCutDiamond>
+                                            <GiCutDiamond className='purple-icons'></GiCutDiamond>
                                         </div>
                                         <div>
                                             <h4>
