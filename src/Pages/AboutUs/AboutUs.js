@@ -65,8 +65,8 @@ const AboutUs = () => {
                             </p>
 
                             <img className='pt-3 signature-img' src={signature} alt="" />
-                            <h5 className='fw-bold blueColor'>Prof. Enamul Hossain</h5>
-                            <p className='blueColor poppins fw-bold'>Founder of NIST & NSRIC Inc.</p>
+                            <h5 className='fw-bold blueColor unselectable'>Prof. Enamul Hossain</h5>
+                            <p className='blueColor poppins fw-bold unselectable'>Founder of NIST & NSRIC Inc.</p>
                         </div>
                     </div>
                 </div>
