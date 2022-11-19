@@ -304,7 +304,7 @@ const Admissions = () => {
                             <div>
                                 <div className="title">
                                     <div className='d-flex'>
-                                        <div className="orange-icons fs-1 d-flex me-3">
+                                        <div className="pink-icons fs-1 d-flex me-3">
                                             <FaTv></FaTv>
                                         </div>
                                         <h4>Anticipate, value and support diversity and learner differences</h4>
@@ -332,7 +332,7 @@ const Admissions = () => {
                             <div>
                                 <div className="title">
                                     <div className='d-flex'>
-                                        <div className="orange-icons fs-1 d-flex me-3">
+                                        <div className="pink-icons fs-1 d-flex me-3">
                                             <FaRulerCombined></FaRulerCombined>
                                         </div>
                                         <h4>Grade 1 - 6: Elementary and Primary School Education (ELE)</h4>
@@ -360,7 +360,7 @@ const Admissions = () => {
                             <div>
                                 <div className="title">
                                     <div className='d-flex'>
-                                        <div className="orange-icons fs-1 d-flex me-3">
+                                        <div className="pink-icons fs-1 d-flex me-3">
                                             <FaInbox></FaInbox>
                                         </div>
                                         <h4> Grades 7 - 8: Middle School Education (MID)</h4>
@@ -388,7 +388,7 @@ const Admissions = () => {
                             <div>
                                 <div className="title">
                                     <div className='d-flex'>
-                                        <div className="orange-icons fs-1 d-flex me-3">
+                                        <div className="pink-icons fs-1 d-flex me-3">
                                             <FaStar></FaStar>
                                         </div>
                                         <h4>Grades 9 - 12: High School Education (HIG)</h4>

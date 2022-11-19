@@ -46,7 +46,7 @@ const InclusiveEducation = () => {
                 </div>
             </div>
 
-                {/*----------- six principles ------------*/}
+            {/*----------- six principles ------------*/}
 
             <div className='gray-bg'>
                 <div className="container py-4">

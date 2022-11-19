@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import AboutUs from "../Pages/AboutUs/AboutUs";
 import Admissions from "../Pages/Admissions/Admissions";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import ForgetPassword from "../Pages/ForgetPassword/ForgetPassword";
@@ -40,6 +41,8 @@ const router = createBrowserRouter([
             { path: '/inclusive-education', element: <InclusiveEducation></InclusiveEducation> },
 
             { path: '/admission', element: <Admissions></Admissions> },
+
+            { path: '/about-us', element: <AboutUs></AboutUs> },
         ]
     }
 ])

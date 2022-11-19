@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='container'>
                 <div className="row row-cols-1 row-cols-md-4 footer-a gap-5 gap-md-0">
                     <div className="col">
-                        <Link>About Us</Link>
+                        <Link to='/about-us'>About Us</Link>
                         <Link>Why Choose Us?</Link>
                         <Link>Objectives</Link>
                         <Link>Who We Are</Link>
@@ -17,7 +17,7 @@ const Footer = () => {
                     </div>
                     <div className="col">
                         <Link to='/admission'>Admission</Link>
-                        <a href='#admission-procedure-guideline'>Admission Process Guideline</a>
+                        <Link to='admission' href= '#admission-procedure-guideline'>Admission Process Guideline</Link>
                         <Link>Tuition Fees</Link>
                         <Link>Scholarships</Link>
                         <Link>Financial Aid</Link>

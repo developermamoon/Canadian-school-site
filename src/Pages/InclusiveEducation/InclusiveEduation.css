@@ -54,6 +54,8 @@
  /*------------------- Mobile view  ---------------*/
  @media only screen and (max-width: 576px) {
     .mid-line {
-            border-right: 0;
+        border: none;
+        padding: 0;
+        padding-top: 15px;
         }
  }
