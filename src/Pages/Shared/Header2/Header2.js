@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header2.css'
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaCaretRight, FaSortDown } from 'react-icons/fa';
 
 const Header2 = () => {
     return (
@@ -24,11 +24,11 @@ const Header2 = () => {
                             </ul>
                         </li>
                         <li><Link to='/'>Courses</Link></li>
-                        <li><Link to='/'>Admissions +</Link>
+                        <li><span className='downArrow'><Link to='/'>Admissions</Link> <FaSortDown></FaSortDown></span>
                             <ul>
                                 <li><Link to='/'>Admission Requirements</Link></li>
                                 <li><Link to='/'>Enrollment and Admission Procedure</Link></li>
-                                <li><Link to='/'>Tution Fees and Scholarships +</Link>
+                                <li><Link to='/'>Tution Fees and Scholarships <FaCaretRight></FaCaretRight></Link>
                                     <ul>
                                         <li><Link to='/'>Tution Fee</Link></li>
                                         <li><Link to='/'>Family/Siblings Grant</Link></li>
@@ -40,17 +40,17 @@ const Header2 = () => {
                                 </li>
                             </ul>
                         </li>
-                        <li><Link to='/'>Our Programs +</Link>
+                        <li><span className='downArrow'><Link to='/'>Our Programs</Link> <FaSortDown></FaSortDown></span>
                             <ul>
-                                <li><Link to='/'>NIST School Program +</Link>
+                                <li><Link to='/'>NIST School Program <FaCaretRight></FaCaretRight></Link>
                                     <ul id="fourth-nav">
-                                        <li><Link to='/'>K0: Preschool Education (PRE) +</Link>
+                                        <li><Link to='/'>K0: Preschool Education (PRE) <FaCaretRight></FaCaretRight></Link>
                                             <ul>
                                                 <li><Link to='/'>Junior Kindergarten</Link></li>
                                                 <li><Link to='/'>Senior Kindergarten</Link></li>
                                             </ul>
                                         </li>
-                                        <li><Link to='/'>G1-6: Elementary and Primary Education (ELE) +</Link>
+                                        <li><Link to='/'>G1-6: Elementary and Primary Education (ELE) <FaCaretRight></FaCaretRight></Link>
                                             <ul id="fifth-nav">
                                                 <li><Link to='/'>Grade 1</Link></li>
                                                 <li><Link to='/'>Grade 2</Link></li>
@@ -60,13 +60,13 @@ const Header2 = () => {
                                                 <li><Link to='/'>Grade 6</Link></li>
                                             </ul>
                                         </li>
-                                        <li><Link to='/'>G7-8: Middle School Education (MID) +</Link>
+                                        <li><Link to='/'>G7-8: Middle School Education (MID) <FaCaretRight></FaCaretRight></Link>
                                             <ul>
                                                 <li><Link to='/'>Grade 7</Link></li>
                                                 <li><Link to='/'>Grade 8</Link></li>
                                             </ul>
                                         </li>
-                                        <li><Link to='/'>G9-12: Secondary School Education (SEC) +</Link>
+                                        <li><Link to='/'>G9-12: Secondary School Education (SEC) <FaCaretRight></FaCaretRight></Link>
                                             <ul id="fifth-nav">
                                                 <li><Link to='/'>Grade 9</Link></li>
                                                 <li><Link to='/'>Grade 10</Link></li>
@@ -74,7 +74,7 @@ const Header2 = () => {
                                                 <li><Link to='/'>Grade 12</Link></li>
                                             </ul>
                                         </li>
-                                        <li><Link to='/'>Home School Education (HOM) +</Link>
+                                        <li><Link to='/'>Home School Education (HOM) <FaCaretRight></FaCaretRight></Link>
                                             <ul id="fifth-nav-big">
                                                 <li><Link to='/'>Grade 1</Link></li>
                                                 <li><Link to='/'>Grade 2</Link></li>
@@ -94,7 +94,7 @@ const Header2 = () => {
                                 </li>
 
                                 <li><Link to='/'>Computer Algorithm and Programming (CAP) Program</Link></li>
-                                <li><Link to='/'>Language Program +</Link>
+                                <li><Link to='/'>Language Program <FaCaretRight></FaCaretRight></Link>
                                     <ul id="fourth-nav">
                                         <li><Link to='/'>English Literacy Development(ELD) program</Link></li>
                                         <li><Link to='/'>English as a Second Language(ESL) program</Link></li>
@@ -104,7 +104,7 @@ const Header2 = () => {
                                     </ul></li>
                                 <li><Link to='/'>Ontario Secondary School Diploma (OSSD) Program</Link></li>
                                 <li><Link to='/'>Professional Development (PD) Program</Link></li>
-                                <li><Link to='/'>Tutoring Program (All Grades) +</Link>
+                                <li><Link to='/'>Tutoring Program (All Grades) <FaCaretRight></FaCaretRight></Link>
                                     <ul id="fourth-nav">
                                         <li><Link to='/'>Computer Algorithm and Programming</Link></li>
                                         <li><Link to='/'>English</Link></li>
@@ -116,7 +116,7 @@ const Header2 = () => {
 
                             </ul>
                         </li>
-                        <li><Link to='/'>Student Services +</Link>
+                        <li><span className='downArrow'><Link to='/'>Student Services</Link> <FaSortDown></FaSortDown></span>
                             <ul>
                                 <li><Link to='/'>Student Club</Link></li>
                                 <li><Link to='/'>Arts and Music</Link></li>
@@ -128,7 +128,7 @@ const Header2 = () => {
 
                             </ul>
                         </li>
-                        <li><Link to='/'>International Students +</Link>
+                        <li><span className='downArrow'><Link to='/'>International Students</Link> <FaSortDown></FaSortDown></span>
                             <ul>
                                 <li><Link to='/'>Global Student</Link></li>
                                 <li><Link to='/'>Benefit</Link></li>
