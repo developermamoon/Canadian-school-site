@@ -10,3 +10,7 @@
     font-weight: bold;
     color: white;
 }
+
+.col:hover{
+    text-decoration: none;
+}

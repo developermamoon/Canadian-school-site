@@ -5,6 +5,8 @@ import LearnMoreCard from '../LearnMoreCard/LearnMoreCard';
 import SecondCarouselPart from '../SecondCarouselPart/SecondCarouselPart';
 import './TextPart.css'
 import { FaAngleDoubleRight } from "react-icons/fa";
+import KeyMessageCarousel from '../KeyMessageCarousel/KeyMessageCarousel';
+
 
 const TextPart = () => {
     return (
@@ -96,11 +98,16 @@ const TextPart = () => {
                 <LearnMoreCard></LearnMoreCard>
             </div>
 
-            {/* Second Carousel Part  */}
+            {/*------------------- Second Carousel Part  */}
             <SecondCarouselPart></SecondCarouselPart>
 
-            {/* Key Message Part  */}
+            {/*----------------- Key Message Part  */}
             <p className='bigText text-center my-4'>Key messages</p>
+
+            <KeyMessageCarousel></KeyMessageCarousel>
+
+
+
 
             {/*-------success Story -----------*/}
             <p className='bigText text-center my-4'>Success Stories</p>
