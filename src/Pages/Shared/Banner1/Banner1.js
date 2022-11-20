@@ -8,13 +8,13 @@ const Banner1 = () => {
             <div className="">
                 <div className="row row-cols-1 row-cols-md-3 g-0">
 
-                    <div className="col col-md-2 px-0 text-center d-flex justify-content-center align-items-center">
+                    <div className="col col-md-2 p-0 text-center d-flex justify-content-center align-items-center">
                         <p className='time-text'>NSRIC Time <br />
                             (EST-Toronto Time)</p>
                     </div>
 
                     {/* middle part */}
-                    <div className="col col-md-8 px-0 text-center text-md-s d-md-flex justify-content-between align-items-center">
+                    <div className="col col-md-8 p-0 text-center text-md-s d-md-flex justify-content-center align-items-center">
 
                         <img className='logo' src={logo} alt="" />
 
@@ -25,7 +25,7 @@ const Banner1 = () => {
                         </div>
                     </div>
 
-                    <div className="col col-md-2 px-0 text-center d-flex justify-content-center align-items-center">
+                    <div className="col col-md-2 p-0 text-center d-flex justify-content-center align-items-center">
                         <p className='time-text'>Local Time</p>
                     </div>
                 </div>

@@ -13,7 +13,6 @@ import MinistryRegistration from "../Pages/RegisterPage/MinistryRegistration/Min
 import ParentRegistration from "../Pages/RegisterPage/ParentRegistration/ParentRegistration";
 import StudentRegistration from "../Pages/RegisterPage/StudentRegistration/StudentRegistration";
 import TeacherRegistration from "../Pages/RegisterPage/TeacherRegistration/TeacherRegistration";
-import Test from "../Pages/Test/Test";
 
 const router = createBrowserRouter([
     {
