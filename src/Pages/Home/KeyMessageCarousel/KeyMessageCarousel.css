@@ -5,19 +5,20 @@
 
 .key-message{
     /* background-color: grey; */
+    width: 100%;
 }
 
 .key-message-container{
     padding: 0 150px;
+    display: flex;
+}
+.carousel-text {
+    padding-left: 20px;
 }
 
-.carousel-indicators button{
-    display: none;
 
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+ .message-carousel .carousel-control-prev-icon,
+ .message-carousel .carousel-control-next-icon {
     height: 50px;
     width: 50px;
     outline: black;
@@ -26,3 +27,76 @@
     border-radius: 50%;
     border: 1px solid black;
 }
+
+ /*------------------- tab view  ---------------*/
+
+ @media only screen and (min-width: 577px) and (max-width: 990px) {
+    .key-message img {
+            width: 250px;
+            height: 300px;
+        }
+    
+        .key-message {
+            /* background-color: grey; */
+            width: 100%;
+        }
+    
+        .key-message-container {
+            padding: 0 20px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+    
+        .carousel-text {
+            padding: 10px;
+        }
+    
+        .message-carousel .carousel-control-prev-icon,
+        .message-carousel .carousel-control-next-icon {
+            height: 50px;
+            width: 50px;
+            outline: black;
+            background-color: rgba(0, 0, 0, 0.3);
+            background-size: 100%, 100%;
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+ }
+
+
+
+ /*------------------- Mobile view  ---------------*/
+ @media only screen and (max-width: 576px) {
+    .key-message img {
+            width: 250px;
+            height: 300px;
+        }
+    
+        .key-message {
+            /* background-color: grey; */
+            width: 100%;
+        }
+    
+        .key-message-container {
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .carousel-text{
+            padding: 10px;
+        }
+    
+        .message-carousel .carousel-control-prev-icon,
+        .message-carousel .carousel-control-next-icon {
+            height: 50px;
+            width: 50px;
+            outline: black;
+            background-color: rgba(0, 0, 0, 0.3);
+            background-size: 100%, 100%;
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+ }

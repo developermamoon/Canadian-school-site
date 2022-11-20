@@ -7,19 +7,19 @@ import './KeyMessageCarousel.css'
 const KeyMessageCarousel = () => {
     return (
         <div className='container key-message'>
-            <Carousel>
+            <Carousel className='message-carousel'>
                 <Carousel.Item interval={1500}>
-                    <div className='d-flex key-message-container'>
+                    <div className='key-message-container'>
                         <img
-                            className="d-block w-25"
+                            className="d-block"
                             src={person}
                             alt="First slide"
                         />
 
-                        <div className='ps-5 justify-text'>
+                        <div className='carousel-text justify-text'>
                             <h5>NSRIC International School in Toronto (NIST) is a part of the K12 Unit of NSRIC Inc., a world wide online Canadian institution based in London, Ontario, Canada. It offers seamless education from kindergarten to grade 12.</h5>  <br /><br />
                             <p>
-                                Prof. Mohammed Nurul Alam <br />
+                                <b>Prof. Mohammed Nurul Alam</b> <br />
                             
                                 <small>
                                     Vice President - Online Education Division, NSRIC Inc.
@@ -34,15 +34,15 @@ const KeyMessageCarousel = () => {
                 <Carousel.Item interval={1500}>
                     <div className='d-flex key-message-container'>
                         <img
-                            className="d-block w-25"
+                            className="d-block"
                             src={person1}
                             alt="First slide"
                         />
 
-                        <div className='ps-5 justify-text'>
+                        <div className='carousel-text justify-text'>
                             <h5>NSRIC International School in Toronto (NIST) is a part of the K12 Unit of NSRIC Inc., a world wide online Canadian institution based in London, Ontario, Canada. It offers seamless education from kindergarten to grade 12.</h5>  <br /><br />
                             <p>
-                                Prof. Mohammed Nurul Alam <br />
+                                <b>Prof. Mohammed Nurul Alam</b> <br />
 
                                 <small>
                                     Vice President - Online Education Division, NSRIC Inc.
@@ -56,16 +56,18 @@ const KeyMessageCarousel = () => {
                 
                 <Carousel.Item interval={1500}>
                     <div className='d-flex key-message-container'>
-                        <img
-                            className="d-block w-25"
-                            src={person}
-                            alt="First slide"
-                        />
+                        
+                            <img
+                                className="d-block"
+                                src={person}
+                                alt="First slide"
+                            />
+                        
 
-                        <div className='ps-5 justify-text'>
+                        <div className='carousel-text justify-text'>
                             <h5>NSRIC International School in Toronto (NIST) is a part of the K12 Unit of NSRIC Inc., a world wide online Canadian institution based in London, Ontario, Canada. It offers seamless education from kindergarten to grade 12.</h5>  <br /><br />
                             <p>
-                                Prof. Mohammed Nurul Alam <br />
+                                <b>Prof. Mohammed Nurul Alam</b> <br />
 
                                 <small>
                                     Vice President - Online Education Division, NSRIC Inc.
