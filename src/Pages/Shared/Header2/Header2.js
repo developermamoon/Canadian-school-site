@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header2.css'
+import { FaBars } from 'react-icons/fa';
 
 const Header2 = () => {
     return (
@@ -8,7 +9,7 @@ const Header2 = () => {
             
             <div className="header2">
                 <input type="checkbox" name="" id="menu-bar" />
-                <label for="menu-bar">Menu</label>
+                <label for="menu-bar"><FaBars className='text-white'></FaBars></label>
 
                 <nav class="navbar">
                     <ul>
@@ -92,61 +93,46 @@ const Header2 = () => {
                                     </ul>
                                 </li>
 
-                                <li><Link to='/'>Nursery</Link></li>
-                                <li><Link to='/'>Playgroup</Link></li>
-                                <li><Link to='/'>Class 1-12</Link>
+                                <li><Link to='/'>Computer Algorithm and Programming (CAP) Program</Link></li>
+                                <li><Link to='/'>Language Program +</Link>
                                     <ul id="fourth-nav">
-                                        <li><Link to='/'>Class 1</Link></li>
-                                        <li><Link to='/'>Class 2</Link></li>
-                                        
+                                        <li><Link to='/'>English Literacy Development(ELD) program</Link></li>
+                                        <li><Link to='/'>English as a Second Language(ESL) program</Link></li>
+                                        <li><Link to='/'>French as a Second Language(FSL) program</Link></li>
+                                        <li><Link to='/'>Internation Enligsh Language Testing System(IELTS) program</Link></li>
+                                        <li><Link to='/'>Test of English as a Foreign Language (TOEFL) program</Link></li>
                                     </ul></li>
+                                <li><Link to='/'>Ontario Secondary School Diploma (OSSD) Program</Link></li>
+                                <li><Link to='/'>Professional Development (PD) Program</Link></li>
+                                <li><Link to='/'>Tutoring Program (All Grades) +</Link>
+                                    <ul id="fourth-nav">
+                                        <li><Link to='/'>Computer Algorithm and Programming</Link></li>
+                                        <li><Link to='/'>English</Link></li>
+                                        <li><Link to='/'>French</Link></li>
+                                        <li><Link to='/'>Mathematics</Link></li>
+                                        <li><Link to='/'>Science</Link></li>
+                                    </ul></li>
+                                <li><Link to='/'>Vocational Training (VT) Program</Link></li>
 
                             </ul>
                         </li>
                         <li><Link to='/'>Student Services +</Link>
                             <ul>
-                                <li><Link to='/'>Kg</Link></li>
-                                <li><Link to='/'>Nursery</Link></li>
-                                <li><Link to='/'>Playgroup</Link></li>
-                                <li><Link to='/'>Class 1-12</Link>
-                                    <ul id="fourth-nav">
-                                        <li><Link to='/'>Class 1</Link></li>
-                                        <li><Link to='/'>Class 2</Link></li>
-                                        <li><Link to='/'>Class 3</Link></li>
-                                        <li><Link to='/'>Class 4</Link></li>
-                                        <li><Link to='/'>Class 5</Link></li>
-                                        <li><Link to='/'>Class 6</Link></li>
-                                        <li><Link to='/'>Class 7</Link></li>
-                                        <li><Link to='/'>Class 8</Link></li>
-                                        <li><Link to='/'>Class 9</Link></li>
-                                        <li><Link to='/'>Class 10</Link></li>
-                                        <li><Link to='/'>Class 11</Link></li>
-                                        <li><Link to='/'>Class 12</Link></li>
-                                    </ul></li>
+                                <li><Link to='/'>Student Club</Link></li>
+                                <li><Link to='/'>Arts and Music</Link></li>
+                                <li><Link to='/'>Online Tutoring Service</Link></li>
+                                <li><Link to='/'>Virtual Games</Link></li>
+                                <li><Link to='/'>Community Service</Link></li>
+                                <li><Link to='/'>Student Counselling</Link></li>
+                                <li><Link to='/'>Internships</Link></li>
 
                             </ul>
                         </li>
                         <li><Link to='/'>International Students +</Link>
                             <ul>
-                                <li><Link to='/'>Kg</Link></li>
-                                <li><Link to='/'>Nursery</Link></li>
-                                <li><Link to='/'>Playgroup</Link></li>
-                                <li><Link to='/'>Class 1-12</Link>
-                                    <ul id="fourth-nav">
-                                        <li><Link to='/'>Class 1</Link></li>
-                                        <li><Link to='/'>Class 2</Link></li>
-                                        <li><Link to='/'>Class 3</Link></li>
-                                        <li><Link to='/'>Class 4</Link></li>
-                                        <li><Link to='/'>Class 5</Link></li>
-                                        <li><Link to='/'>Class 6</Link></li>
-                                        <li><Link to='/'>Class 7</Link></li>
-                                        <li><Link to='/'>Class 8</Link></li>
-                                        <li><Link to='/'>Class 9</Link></li>
-                                        <li><Link to='/'>Class 10</Link></li>
-                                        <li><Link to='/'>Class 11</Link></li>
-                                        <li><Link to='/'>Class 12</Link></li>
-                                    </ul></li>
-
+                                <li><Link to='/'>Global Student</Link></li>
+                                <li><Link to='/'>Benefit</Link></li>
+                                <li><Link to='/'>Have Questions</Link></li>
                             </ul>
                         </li>
                         <li><Link to='/'>NIST Calendar</Link></li>
