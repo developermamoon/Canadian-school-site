@@ -1,208 +1,163 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
 import './Header2.css'
 
 const Header2 = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" className='navbar' >
-                <Container>
+            
+            <div className="header2">
+                <input type="checkbox" name="" id="menu-bar" />
+                <label for="menu-bar">Menu</label>
 
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <nav class="navbar">
+                    <ul>
+                        <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/'>About Us</Link>
+                            <ul>
+                                <li><Link to='/'>Why choose us?</Link></li>
+                                <li><Link to='/'>Objectives</Link></li>
+                                <li><Link to='/'>Who We Are?</Link></li>
+                                <li><Link to='/'>Equivalency</Link></li>
+                                <li><Link to='/'>Inclusive Education</Link></li>
+                            </ul>
+                        </li>
+                        <li><Link to='/'>Courses</Link></li>
+                        <li><Link to='/'>Admissions +</Link>
+                            <ul>
+                                <li><Link to='/'>Admission Requirements</Link></li>
+                                <li><Link to='/'>Enrollment and Admission Procedure</Link></li>
+                                <li><Link to='/'>Tution Fees and Scholarships +</Link>
+                                    <ul>
+                                        <li><Link to='/'>Tution Fee</Link></li>
+                                        <li><Link to='/'>Family/Siblings Grant</Link></li>
+                                        <li><Link to='/'>Scholarships</Link></li>
+                                        <li><Link to='/'>Financial Aid and Subsidy</Link></li>
+                                    </ul>
+                                <li><Link to='/'>Submit Online Application Form Now</Link></li>
+                                <li><Link to='/'>Download Admission Form Now</Link></li>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><Link to='/'>Our Programs +</Link>
+                            <ul>
+                                <li><Link to='/'>NIST School Program +</Link>
+                                    <ul id="fourth-nav">
+                                        <li><Link to='/'>K0: Preschool Education (PRE) +</Link>
+                                            <ul>
+                                                <li><Link to='/'>Junior Kindergarten</Link></li>
+                                                <li><Link to='/'>Senior Kindergarten</Link></li>
+                                            </ul>
+                                        </li>
+                                        <li><Link to='/'>G1-6: Elementary and Primary Education (ELE) +</Link>
+                                            <ul id="fifth-nav">
+                                                <li><Link to='/'>Grade 1</Link></li>
+                                                <li><Link to='/'>Grade 2</Link></li>
+                                                <li><Link to='/'>Grade 3</Link></li>
+                                                <li><Link to='/'>Grade 4</Link></li>
+                                                <li><Link to='/'>Grade 5</Link></li>
+                                                <li><Link to='/'>Grade 6</Link></li>
+                                            </ul>
+                                        </li>
+                                        <li><Link to='/'>G7-8: Middle School Education (MID) +</Link>
+                                            <ul>
+                                                <li><Link to='/'>Grade 7</Link></li>
+                                                <li><Link to='/'>Grade 8</Link></li>
+                                            </ul>
+                                        </li>
+                                        <li><Link to='/'>G9-12: Secondary School Education (SEC) +</Link>
+                                            <ul id="fifth-nav">
+                                                <li><Link to='/'>Grade 9</Link></li>
+                                                <li><Link to='/'>Grade 10</Link></li>
+                                                <li><Link to='/'>Grade 11</Link></li>
+                                                <li><Link to='/'>Grade 12</Link></li>
+                                            </ul>
+                                        </li>
+                                        <li><Link to='/'>Home School Education (HOM) +</Link>
+                                            <ul id="fifth-nav-big">
+                                                <li><Link to='/'>Grade 1</Link></li>
+                                                <li><Link to='/'>Grade 2</Link></li>
+                                                <li><Link to='/'>Grade 3</Link></li>
+                                                <li><Link to='/'>Grade 4</Link></li>
+                                                <li><Link to='/'>Grade 5</Link></li>
+                                                <li><Link to='/'>Grade 6</Link></li>
+                                                <li><Link to='/'>Grade 7</Link></li>
+                                                <li><Link to='/'>Grade 8</Link></li>
+                                                <li><Link to='/'>Grade 9</Link></li>
+                                                <li><Link to='/'>Grade 10</Link></li>
+                                                <li><Link to='/'>Grade 11</Link></li>
+                                                <li><Link to='/'>Grade 12</Link></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
 
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="d-flex align-items-center flex-wrap text-center">
-                            
-                            <Link to="/">Home</Link>
-                            
-
-                            <NavDropdown title="About Us" id="collasible-nav-dropdown">
-                                <Link to="/whyChooseUs">Why choose us?</Link>
-                                <Link to="/objectives">Objectives</Link>
-                                <Link to="#action/3.3">
-                                    Who We Are ?
-                                </Link>
-                                <Link to="#action/3.4">Equivalency</Link>
-
-                                <Link to="#action/3.5">
-                                    Inclusive Education
-                                </Link>
-                            </NavDropdown>
-
-                            <Link to="#pricing">Courses</Link>
-
-
-                            <NavDropdown title="Admissions" id="collasible-nav-dropdown">
-
-                                
-
-
-                                <Link to="/admission">Admission Requirements</Link>
-                                <Link to="/admission">Enrolement and Admission Procedure</Link>
-
-                                    <NavDropdown title="Tuition Fees and Scholarship" id="collasible-nav-dropdown">
-                                        <Link to="#action/">Tution Fee</Link>
-                                        <Link to="#action/">Family/Sibling Grant</Link>
-                                        <Link to="#action/">
-                                            Scholarships
-                                        </Link>
-                                        <Link to="#action/3.3">Finantial Aid and Subsidy</Link>
-
-                                    </NavDropdown>
-                                
-
-                                <Link to="/student-registration">Submit Online Application Form Now</Link>
-
-                                <Link to="#action/3.4">
-                                    Download Admission Form Now
-                                </Link>
-                            </NavDropdown>
-
-                            
-                            <NavDropdown title="Our Programs" id="collasible-nav-dropdown">
-
-
-                                <NavDropdown title="NIST School Program " id="collasible-nav-dropdown">
-                                    <NavDropdown title="K0: Preschool Education (PRE)" id="collasible-nav-dropdown">
-                                        <Link to="/whyChooseUs">Junior Kindergarten</Link>
-                                        <Link to="/whyChooseUs">Senior Kindergarten</Link>
-                                    </NavDropdown>
-
-
-                                    <NavDropdown title="G1-6: Elementary and Primary Education (ELE)" id="collasible-nav-dropdown">
-                                        <Link to="/whyChooseUs">Grade 1</Link>
-                                        <Link to="/whyChooseUs">Grade 2</Link>
-                                        <Link to="/whyChooseUs">Grade 3</Link>
-                                        <Link to="/whyChooseUs">Grade 4</Link>
-                                        <Link to="/whyChooseUs">Grade 5</Link>
-                                        <Link to="/whyChooseUs">Grade 6</Link>
-                                    </NavDropdown>
-
-
-                                    <NavDropdown title="G7-8: Middle School Education (MID)" id="collasible-nav-dropdown">
-                                        <Link to="/whyChooseUs">Grade 9</Link>
-                                        <Link to="/whyChooseUs">Grade 10</Link>
-                                        <Link to="/whyChooseUs">Grade 11</Link>
-                                        <Link to="/whyChooseUs">Grade 12</Link>
+                                <li><Link to='/'>Nursery</Link></li>
+                                <li><Link to='/'>Playgroup</Link></li>
+                                <li><Link to='/'>Class 1-12</Link>
+                                    <ul id="fourth-nav">
+                                        <li><Link to='/'>Class 1</Link></li>
+                                        <li><Link to='/'>Class 2</Link></li>
                                         
-                                    </NavDropdown>
+                                    </ul></li>
 
+                            </ul>
+                        </li>
+                        <li><Link to='/'>Student Services +</Link>
+                            <ul>
+                                <li><Link to='/'>Kg</Link></li>
+                                <li><Link to='/'>Nursery</Link></li>
+                                <li><Link to='/'>Playgroup</Link></li>
+                                <li><Link to='/'>Class 1-12</Link>
+                                    <ul id="fourth-nav">
+                                        <li><Link to='/'>Class 1</Link></li>
+                                        <li><Link to='/'>Class 2</Link></li>
+                                        <li><Link to='/'>Class 3</Link></li>
+                                        <li><Link to='/'>Class 4</Link></li>
+                                        <li><Link to='/'>Class 5</Link></li>
+                                        <li><Link to='/'>Class 6</Link></li>
+                                        <li><Link to='/'>Class 7</Link></li>
+                                        <li><Link to='/'>Class 8</Link></li>
+                                        <li><Link to='/'>Class 9</Link></li>
+                                        <li><Link to='/'>Class 10</Link></li>
+                                        <li><Link to='/'>Class 11</Link></li>
+                                        <li><Link to='/'>Class 12</Link></li>
+                                    </ul></li>
 
-                                    <NavDropdown title="G9-12: Secondary School Education (SEC)" id="collasible-nav-dropdown">
-                                        <Link to="/whyChooseUs">Grade 7</Link>
-                                        <Link to="/whyChooseUs">Grade 8</Link>
-                                    </NavDropdown>
+                            </ul>
+                        </li>
+                        <li><Link to='/'>International Students +</Link>
+                            <ul>
+                                <li><Link to='/'>Kg</Link></li>
+                                <li><Link to='/'>Nursery</Link></li>
+                                <li><Link to='/'>Playgroup</Link></li>
+                                <li><Link to='/'>Class 1-12</Link>
+                                    <ul id="fourth-nav">
+                                        <li><Link to='/'>Class 1</Link></li>
+                                        <li><Link to='/'>Class 2</Link></li>
+                                        <li><Link to='/'>Class 3</Link></li>
+                                        <li><Link to='/'>Class 4</Link></li>
+                                        <li><Link to='/'>Class 5</Link></li>
+                                        <li><Link to='/'>Class 6</Link></li>
+                                        <li><Link to='/'>Class 7</Link></li>
+                                        <li><Link to='/'>Class 8</Link></li>
+                                        <li><Link to='/'>Class 9</Link></li>
+                                        <li><Link to='/'>Class 10</Link></li>
+                                        <li><Link to='/'>Class 11</Link></li>
+                                        <li><Link to='/'>Class 12</Link></li>
+                                    </ul></li>
 
+                            </ul>
+                        </li>
+                        <li><Link to='/'>NIST Calendar</Link></li>
+                        <li><Link to='/'>Carrers</Link></li>
+                        <li><Link to='/'>Our Team</Link></li>
+                        <li><Link to='/'>NSRIC Partnership</Link></li>
+                    </ul>
+                </nav>
+            </div>
+            
 
-
-                                    <NavDropdown title="Home School Education (HOM)" id="collasible-nav-dropdown">
-                                        <Link to="/whyChooseUs">Grade 1</Link>
-                                        <Link to="/whyChooseUs">Grade 2</Link>
-                                        <Link to="/whyChooseUs">Grade 3</Link>
-                                        <Link to="/whyChooseUs">Grade 4</Link>
-                                        <Link to="/whyChooseUs">Grade 5</Link>
-                                        <Link to="/whyChooseUs">Grade 6</Link>
-                                        <Link to="/whyChooseUs">Grade 7</Link>
-                                        <Link to="/whyChooseUs">Grade 8</Link>
-                                        <Link to="/whyChooseUs">Grade 9</Link>
-                                        <Link to="/whyChooseUs">Grade 10</Link>
-                                        <Link to="/whyChooseUs">Grade 11</Link>
-                                        <Link to="/whyChooseUs">Grade 12</Link>
-                                    </NavDropdown>
-
-
-                                </NavDropdown>
-
-
-                                <Link to="#action/3.1">Computer Algorithm and Programming(CAP) Program</Link>
-
-                                <NavDropdown title="Language Program" id="collasible-nav-dropdown">
-                                    <Link to="/whyChooseUs">English Literacy Development (ELD) Program</Link>
-                                    <Link to="/objectives">English as a second language (ESL)Program</Link>
-                                    <Link to="#action/3.3">
-                                        French as a second language (FSL)Program
-                                    </Link>
-                                    <Link to="#action/3.4">Internation English Language Testing System System (IELTS) Program</Link>
-
-                                    <Link to="#action/3.5">
-                                        Test of English As a Foreign Language (TOEFL) Program
-                                    </Link>
-                                </NavDropdown>
-
-
-
-                                <Link to="#action/3.1">Ontario Secondary School Diploma (OSSD) Program</Link>
-
-                                <NavDropdown title="Tutoring Program (All Grades)" id="collasible-nav-dropdown">
-                                    <Link to="/whyChooseUs">Computer Algorithm and Programming</Link>
-                                    <Link to="/objectives">English</Link>
-                                    <Link to="#action/3.3">
-                                        French
-                                    </Link>
-                                    <Link to="#action/3.4">Mathematics</Link>
-
-                                    <Link to="#action/3.5">
-                                        Science
-                                    </Link>
-                                </NavDropdown>
-
-
-
-                                <Link to="#action/3.2">
-                                    Vocational Training (VT) Program
-                                </Link>
-                                
-                            </NavDropdown>
-
-                            <NavDropdown title="Student Services" id="collasible-nav-dropdown">
-                                <Link to="#action/3.1">Student Club</Link>
-                                <Link to="#action/3.1">Arts and Music</Link>
-                                <Link to="#action/3.2">
-                                    Online Tutoring Service
-                                </Link>
-                                <Link to="#action/3.3">Virtual Games</Link>
-                                <Link to="#action/3.3">Community Service</Link>
-
-                                <Link to="#action/3.4">
-                                    Student Counselling
-                                </Link>
-                                <Link to="#action/3.4">
-                                    Internships
-                                </Link>
-                            </NavDropdown>
-
-
-                            <NavDropdown title="International Students" id="collasible-nav-dropdown">
-                                <Link to="#action/3.1">Global Student</Link>
-                                <Link to="#action/3.1">Benefit</Link>
-                                <Link to="#action/3.2">
-                                    Have questions
-                                </Link>
-                                <Link to="#action/3.3">Equivalency</Link>
-
-                                <Link to="#action/3.4">
-                                    Inclusive Education
-                                </Link>
-                            </NavDropdown>
-
-
-
-                            
-                            <Link to="#pricing">NIST Calendar</Link>
-                            <Link to="#pricing">Careers</Link>
-                            <Link to="#pricing">Our Team</Link>
-                            <Link to="#pricing">NSRIC Partnership</Link>
-
-
-                        </Nav>
-                        
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
         </div>
     );
 };
