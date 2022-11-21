@@ -1,7 +1,8 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import person from '../../../Images/man2.jpg'
-import person1 from '../../../Images/man1.jpg'
+import person1 from '../../../Images/Home-page/person/man2.jpg'
+import person2 from '../../../Images/Home-page/person/man3.jpg'
+import person3 from '../../../Images/Home-page/person/man4.jpg'
 import './KeyMessageCarousel.css'
 
 const KeyMessageCarousel = () => {
@@ -12,7 +13,7 @@ const KeyMessageCarousel = () => {
                     <div className='key-message-container'>
                         <img
                             className="d-block"
-                            src={person}
+                            src={person1}
                             alt="First slide"
                         />
 
@@ -35,7 +36,7 @@ const KeyMessageCarousel = () => {
                     <div className='d-flex key-message-container'>
                         <img
                             className="d-block"
-                            src={person1}
+                            src={person2}
                             alt="First slide"
                         />
 
@@ -59,7 +60,7 @@ const KeyMessageCarousel = () => {
                         
                             <img
                                 className="d-block"
-                                src={person}
+                                src={person3}
                                 alt="First slide"
                             />
                         
