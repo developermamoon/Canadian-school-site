@@ -12,7 +12,7 @@ const Banner1 = () => {
                     <div className="col col-md-2 p-0 text-center d-flex flex-column justify-content-center  align-items-center">
                         <p className='time-text'>NSRIC Time <br />
                             (EST-Toronto Time)</p>
-                        <Clock className='fw-bold fs-4' format={'hh:mm:ss A'} ticking={true} timezone={'Canada/Eastern'}  />
+                        <Clock className='fw-bold fs-4' format={'hh:mm:ss A'} ticking={true} timezone={'Canada/Central'}  />
                     </div>
 
                     {/* middle part */}
@@ -27,10 +27,10 @@ const Banner1 = () => {
                         </div>
                     </div>
 
-                    <div className="col col-md-2 p-0 text-center d-flex justify-content-center align-items-center">
+                    <div className="col col-md-2 p-0 text-center d-flex flex-column justify-content-center align-items-center">
                         <p className='time-text'>
                             <p className='time-text'>Local Time </p>
-                            <Clock className='fw-bold fs-4' format={'hh:mm:ss A'} ticking={true} timezone={'Asia/Dhaka'}  />
+                            <Clock className='fw-bold fs-4' format={'hh:mm:ss A'} ticking={true} timezone={'Canada/Atlantic'}  />
                         </p>
                     </div>
                 </div>

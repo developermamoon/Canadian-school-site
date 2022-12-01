@@ -46,7 +46,7 @@ const TextPart = () => {
                             <div>
                                 <p>The values held at NIST are established by using a holistic approach to learning; one in which the essential elements of achieving human excellence - in an intellectual, social-emotional, and physical context - are instilled in our students starting at the earliest stages. We aim to raise students who demonstrate impeccable character, leadership skills, along with advanced academic skills and exemplary citizenship.</p>
 
-                                <p>
+                                <>
                                     Our core values as part of our world-class program, aligned with the Ontario program of study in Canada:
                                     <ol>
                                         <li>Respect</li>
@@ -55,7 +55,7 @@ const TextPart = () => {
                                         <li>Professionalism</li>
                                         <li>Tolerance</li>
                                     </ol>
-                                </p>
+                                </>
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@ const TextPart = () => {
             {/*-------success Story -----------*/}
             <p className='bigText text-center my-4'>Success Stories</p>
             <div className='d-flex justify-content-center'>
-                <iframe width="1100" height="600" src="https://www.youtube.com/embed/C_oiIq5epWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="1100" height="600" src="https://www.youtube.com/embed/C_oiIq5epWE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
 
             {/* News */}

@@ -11,10 +11,10 @@ const Header1 = () => {
         <div>
 
             <div className="header1">
-                <input type="checkbox" name="" id="menu-bar" />
-                <label for="menu-bar"><FaBars className='text-white'></FaBars></label>
+                <input type="checkbox" id="header1-menu-bar" />
+                <label htmlFor="header1-menu-bar"><FaBars className='text-white'></FaBars></label>
 
-                <nav class="navbar d-flex align-items-center fw-bold">
+                <nav className="navbar d-flex align-items-center fw-bold">
                     <ul>
                             <li><Link to='/contact-us'>Contact US</Link></li>
                             <li><Link to='/nsric'>NSRIC</Link></li>

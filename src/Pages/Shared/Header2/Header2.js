@@ -9,9 +9,9 @@ const Header2 = () => {
             
             <div className="header2">
                 <input type="checkbox" name="" id="menu-bar" />
-                <label for="menu-bar"><FaBars className='text-white'></FaBars></label>
+                <label htmlFor="menu-bar"><FaBars className='text-white'></FaBars></label>
 
-                <nav class="navbar">
+                <nav className="navbar">
                     <ul>
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/'>About Us</Link>

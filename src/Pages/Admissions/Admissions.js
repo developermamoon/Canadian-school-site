@@ -5,7 +5,7 @@ import kindergarden7 from '../../Images/Kindergarten-7.png'
 import kindergarden8 from '../../Images/Kindergarten-8.png'
 import kindergarden9 from '../../Images/Kindergarten-9.png'
 import { Link } from 'react-router-dom';
-import { FaDatabase, FaCrown, FaMedal, FaStar, FaChevronCircleRight, FaTv, FaRulerCombined, FaInbox } from "react-icons/fa";
+import { FaStar, FaTv, FaRulerCombined, FaInbox } from "react-icons/fa";
 
 const Admissions = () => {
     return (
