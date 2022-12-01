@@ -1,10 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebookF } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaBars, FaSortDown } from 'react-icons/fa';
 import './Header1.css'
@@ -19,7 +14,7 @@ const Header1 = () => {
                 <input type="checkbox" name="" id="menu-bar" />
                 <label for="menu-bar"><FaBars className='text-white'></FaBars></label>
 
-                <nav class="navbar d-flex align-items-center">
+                <nav class="navbar d-flex align-items-center fw-bold">
                     <ul>
                             <li><Link to='/contact-us'>Contact US</Link></li>
                             <li><Link to='/nsric'>NSRIC</Link></li>
@@ -50,13 +45,18 @@ const Header1 = () => {
 
                     <div className='d-flex social'>
                             
+                                <Link to='/'>$<span className=''>0.00</span> <FaShoppingCart></FaShoppingCart></Link>
+                    </div>
+
+                    {/* <div className='d-flex social'>
+                            
                                 <Link to='/'><FaFacebookF></FaFacebookF></Link>
                                 <Link to='/'><FaLinkedinIn></FaLinkedinIn></Link>
                                 <Link to='/'><FaTwitter></FaTwitter></Link>
                                 <Link to='/'><FaInstagram></FaInstagram></Link>
                                 <Link to='/'><FaYoutube></FaYoutube></Link>
                                 <Link to='/'>$<span className=''>0.00</span> <FaShoppingCart></FaShoppingCart></Link>
-                    </div>
+                    </div> */}
 
 
                 </nav>

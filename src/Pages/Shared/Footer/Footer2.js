@@ -5,6 +5,13 @@ import { FaPhoneAlt } from 'react-icons/fa';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { FaRegEnvelope } from 'react-icons/fa';
 
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+
+
 const Footer2 = () => {
     return (
         <div className='bg-2 pb-4'>
@@ -22,7 +29,7 @@ const Footer2 = () => {
                             education.
                         </p>
                     </div>
-                    <div className="col">
+                    <div className="col px-5">
                         <h3>Corporate office</h3>
                         <div className='mb-4'>
                             <div className="icon"></div>
@@ -55,6 +62,22 @@ const Footer2 = () => {
                                 Email: <br />
                                 info@nistonline.ca
                             </small>
+                            </div>
+                        </div>
+
+
+                        <div className='mb-4'>
+                            <h3>Social Media</h3>
+                            <div className='d-flex align-items-center'>
+                                <div className='d-flex social'>
+
+                                    <Link to='/'><FaFacebookF></FaFacebookF></Link>
+                                    <Link to='/'><FaLinkedinIn></FaLinkedinIn></Link>
+                                    <Link to='/'><FaTwitter></FaTwitter></Link>
+                                    <Link to='/'><FaInstagram></FaInstagram></Link>
+                                    <Link to='/'><FaYoutube></FaYoutube></Link>
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>
