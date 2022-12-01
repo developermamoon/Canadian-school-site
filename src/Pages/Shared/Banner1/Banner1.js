@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../../Images/logo.jpg'
 import './Banner1.css'
+import Clock from 'react-live-clock';
 
 const Banner1 = () => {
     return (
@@ -8,9 +9,10 @@ const Banner1 = () => {
             <div className="">
                 <div className="row row-cols-1 row-cols-md-3 g-0">
 
-                    <div className="col col-md-2 p-0 text-center d-flex justify-content-center align-items-center">
+                    <div className="col col-md-2 p-0 text-center d-flex flex-column justify-content-center  align-items-center">
                         <p className='time-text'>NSRIC Time <br />
                             (EST-Toronto Time)</p>
+                        <Clock className='fw-bold fs-4' format={'hh:mm:ss A'} ticking={true} timezone={'Canada/Eastern'}  />
                     </div>
 
                     {/* middle part */}
@@ -26,7 +28,10 @@ const Banner1 = () => {
                     </div>
 
                     <div className="col col-md-2 p-0 text-center d-flex justify-content-center align-items-center">
-                        <p className='time-text'>Local Time</p>
+                        <p className='time-text'>
+                            <p className='time-text'>Local Time </p>
+                            <Clock className='fw-bold fs-4' format={'hh:mm:ss A'} ticking={true} timezone={'Asia/Dhaka'}  />
+                        </p>
                     </div>
                 </div>
 
