@@ -13,6 +13,7 @@ import MinistryRegistration from "../Pages/RegisterPage/MinistryRegistration/Min
 import ParentRegistration from "../Pages/RegisterPage/ParentRegistration/ParentRegistration";
 import StudentRegistration from "../Pages/RegisterPage/StudentRegistration/StudentRegistration";
 import TeacherRegistration from "../Pages/RegisterPage/TeacherRegistration/TeacherRegistration";
+import StudentServices from "../Pages/StudentServices/StudentServices";
 import TutionFees from "../Pages/TutionFees/TutionFees";
 
 const router = createBrowserRouter([
@@ -45,6 +46,8 @@ const router = createBrowserRouter([
             { path: '/about-us', element: <AboutUs></AboutUs> },
 
             { path: '/tution-fees', element: <TutionFees></TutionFees> },
+
+            { path: '/student-services', element: <StudentServices></StudentServices> },
         ]
     }
 ])

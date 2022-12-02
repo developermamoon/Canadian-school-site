@@ -24,7 +24,7 @@ const Footer = () => {
                         <Link>Download Admission Form</Link>
                     </div>
                     <div className="col">
-                        <Link>Student Services</Link>
+                        <Link to='student-services'>Student Services</Link>
                         <Link>Students Club</Link>
                         <Link>Arts and Music</Link>
                         <Link>Online Tutorial Services</Link>
