@@ -245,7 +245,7 @@ const Admissions = () => {
                 </div>
             </div>
 
-            {/*--------------- step 4  */}
+            {/*--------------- step 4 Final Decision  */}
             <div className="container py-5 rounded">
                 <div className="row admission-req">
                     <div className="col bg-white px-md-5">

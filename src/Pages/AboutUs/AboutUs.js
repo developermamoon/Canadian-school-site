@@ -29,7 +29,7 @@ const AboutUs = () => {
             {/*------------- Why choose us  ---------------------*/}
 
             <div>
-                <div className="container py-4">
+                <div className="container py-4" id='why-choose-us'>
                     <div className="row row-cols-1 row-cols-md-2">
 
                         <div className="col col-md-4 d-flex align-items-center">
@@ -49,7 +49,7 @@ const AboutUs = () => {
 
             {/*------------ Objectives  -------*/}
             <div className="container">
-                <h3 className='fs-2 blueColor fw-bold my-4 ' id='objectives'>Objective</h3>
+                <h3 className='fs-2 blueColor fw-bold my-4 ' id='objectives'>Objectives</h3>
             </div>
 
             <div>

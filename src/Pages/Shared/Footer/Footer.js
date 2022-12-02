@@ -2,25 +2,25 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css'
 
-const Footer = () => {
+const Footer = () => {  
     return (
         <div className='bg'>
-            <div className='container'>
+            <div className='container footer1'>
                 <div className="row row-cols-1 row-cols-md-4 footer-a gap-5 gap-md-0">
                     <div className="col">
                         <Link to='/about-us'>About Us</Link>
-                        <Link>Why Choose Us?</Link>
-                        <Link>Objectives</Link>
-                        <Link>Who We Are</Link>
-                        <Link>Equivalency</Link>
+                        <a href="/about-us/#why-choose-us">Why Choose Us</a>
+                        <a href='/about-us/#objectives'>Objectives</a>
+                        <a href='#who-we-are'>Who We Are</a>
+                        <a href='#equivalency'>Equivalency</a>
                         <Link to='/inclusive-education'>Inclusive Education</Link>
                     </div>
                     <div className="col">
                         <Link to='/admission'>Admission</Link>
-                        <Link to='admission' href= '#admission-procedure-guideline'>Admission Process Guideline</Link>
-                        <Link>Tuition Fees</Link>
-                        <Link>Scholarships</Link>
-                        <Link>Financial Aid</Link>
+                        <Link to='/admission/#admission-process-guideline'>Admission Process Guideline</Link>
+                        <Link to= '/tution-fees'>Tuition Fees</Link>
+                        <Link to='/tution-fees/#scholarships'>Scholarships</Link>
+                        <Link to='/tution-fees/#financial-aid'>Financial Aid</Link>
                         <Link>Download Admission Form</Link>
                     </div>
                     <div className="col">
