@@ -8,6 +8,8 @@ import { Link } from 'react-router-dom';
 const InclusiveEducation = () => {
     return (
         <div>
+
+            {/*------------ capsule  --------------*/}
             <div className='blue-bg-round'>
 
                     <div className='blue-bg-round-color'></div>

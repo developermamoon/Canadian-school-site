@@ -24,21 +24,21 @@ const Footer = () => {
                         <Link>Download Admission Form</Link>
                     </div>
                     <div className="col">
-                        <Link to='student-services'>Student Services</Link>
-                        <Link to='student-services'>Students Club</Link>
-                        <Link to='student-services'>Arts and Music</Link>
-                        <Link to='student-services'>Online Tutorial Services</Link>
-                        <Link to='student-services'>Virtual Games</Link>
-                        <Link to='student-services'>Community Services</Link>
-                        <Link to='student-services'>Student Counselling</Link>
-                        <Link to='student-services'>Internships</Link>
+                        <Link to='/student-services'>Student Services</Link>
+                        <Link to='/student-services'>Students Club</Link>
+                        <Link to='/student-services'>Arts and Music</Link>
+                        <Link to='/student-services'>Online Tutorial Services</Link>
+                        <Link to='/student-services'>Virtual Games</Link>
+                        <Link to='/student-services'>Community Services</Link>
+                        <Link to='/student-services'>Student Counselling</Link>
+                        <Link to='/student-services'>Internships</Link>
                     </div>
                     <div className="col">
                         <Link to='international-students'>International Students</Link>
-                        <Link>Calender</Link>
-                        <Link>Careers</Link>
-                        <Link>Our Team</Link>
-                        <Link>NSRIC Partnership</Link>
+                        <Link to='/calender'>Calender</Link>
+                        <Link to='/careers'>Careers</Link>
+                        <Link to='/our-team'>Our Team</Link>
+                        <Link to='/NSRIC-Partnership'>NSRIC Partnership</Link>
                     </div>
                 </div>
             </div>

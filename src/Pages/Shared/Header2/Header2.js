@@ -136,7 +136,7 @@ const Header2 = () => {
                             </ul>
                         </li>
                         <li><Link to='/'>NIST Calendar</Link></li>
-                        <li><Link to='/'>Carrers</Link></li>
+                        <li><Link to='/careers'>Carrers</Link></li>
                         <li><Link to='/'>Our Team</Link></li>
                         <li><Link to='/'>NSRIC Partnership</Link></li>
                     </ul>
