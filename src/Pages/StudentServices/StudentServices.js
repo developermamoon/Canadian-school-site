@@ -232,7 +232,7 @@ const StudentServices = () => {
             {/*------------- Internship Club  ---------------------*/}
             <div>
                 <div className="container py-4">
-                    <h2 className='text-center blueColor fw-bold'>Student Counselling Club</h2>
+                    <h2 className='text-center blueColor fw-bold'>Internship Club</h2>
 
                     <div className="text-center my-4 d-flex justify-content-center">
                         <img className='img-fluid' src={img7} alt="" />

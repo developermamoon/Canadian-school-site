@@ -17,9 +17,9 @@ const Header1 = () => {
                 <nav className="navbar d-flex align-items-center fw-bold">
                     <ul>
                             <li><Link to='/contact-us'>Contact US</Link></li>
-                            <li><Link to='/nsric'>NSRIC</Link></li>
-                            <li><Link to='/conferences'>CONFERENCES</Link></li>
-                            <li><Link to='/wansee'>WANSEE</Link></li>
+                        <li><a href='https://nsric.ca/' target="_blank">NSRIC</a></li>
+                        <li><a href='https://www.icnsea.org/' target="_blank">CONFERENCES</a></li>
+                        <li><a href='https://www.wansee.org/' target="_blank">WANSEE</a></li>
                             <li><span className='downArrow'><Link to='/student-registration'>REGISTRATION</Link> <FaSortDown></FaSortDown></span>
                                 <ul>
                                     <li><Link to='/student-registration'>Student Registration</Link></li>

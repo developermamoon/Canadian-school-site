@@ -25,16 +25,16 @@ const Footer = () => {
                     </div>
                     <div className="col">
                         <Link to='student-services'>Student Services</Link>
-                        <Link>Students Club</Link>
-                        <Link>Arts and Music</Link>
-                        <Link>Online Tutorial Services</Link>
-                        <Link>Virtual Games</Link>
-                        <Link>Community Services</Link>
-                        <Link>Student Counselling</Link>
-                        <Link>Internships</Link>
+                        <Link to='student-services'>Students Club</Link>
+                        <Link to='student-services'>Arts and Music</Link>
+                        <Link to='student-services'>Online Tutorial Services</Link>
+                        <Link to='student-services'>Virtual Games</Link>
+                        <Link to='student-services'>Community Services</Link>
+                        <Link to='student-services'>Student Counselling</Link>
+                        <Link to='student-services'>Internships</Link>
                     </div>
                     <div className="col">
-                        <Link>International Students</Link>
+                        <Link to='international-students'>International Students</Link>
                         <Link>Calender</Link>
                         <Link>Careers</Link>
                         <Link>Our Team</Link>

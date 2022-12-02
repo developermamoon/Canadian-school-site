@@ -5,6 +5,7 @@ import ContactUs from "../Pages/ContactUs/ContactUs";
 import ForgetPassword from "../Pages/ForgetPassword/ForgetPassword";
 import Home from "../Pages/Home/Home";
 import InclusiveEducation from "../Pages/InclusiveEducation/InclusiveEducation";
+import InternationaStudents from "../Pages/InternationalStudents/InternationaStudents";
 import Main from "../Pages/Layout/Main";
 import Login from "../Pages/Login/Login";
 import BusinessPartnerRegistration from "../Pages/RegisterPage/BusinessPartnerRegistration/BusinessPartnerRegistration";
@@ -48,6 +49,8 @@ const router = createBrowserRouter([
             { path: '/tution-fees', element: <TutionFees></TutionFees> },
 
             { path: '/student-services', element: <StudentServices></StudentServices> },
+
+            { path: '/international-students', element: <InternationaStudents></InternationaStudents> },
         ]
     }
 ])
