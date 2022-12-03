@@ -1,0 +1,10 @@
+.cursorPointer{
+    cursor: pointer;
+}
+
+
+.hoverBorder:hover{
+    border: 2px solid black;
+    padding-left: 5px;
+    transition: 0.5s;
+}

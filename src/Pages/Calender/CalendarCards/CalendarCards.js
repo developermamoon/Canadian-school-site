@@ -1,24 +1,24 @@
 import React from 'react';
-import ImgsViewer from "react-images-viewer";
+import { PhotoProvider, PhotoView } from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css';
 
 const CalendarCards = ({data}) => {
 
     const {title, img} = data;
     return (
         <div>
-            <h4 className='py-4 green-color-link text-center'>{title}</h4>
-            {/* <img className='img-fluid pb-3' src={img} alt="" /> */}
+            <PhotoProvider>
+                <PhotoView src={img}>
+                    <h4 className='py-4 green-color-link text-center cursorPointer'>{title}</h4>
+                </PhotoView>
+            </PhotoProvider>
 
-            <ImgsViewer
-                imgs={
-                     img
-                }
-                // currImg={this.state.currImg}
-                // isOpen={this.state.viewerIsOpen}
-                // onClickPrev={this.gotoPrevious}
-                // onClickNext={this.gotoNext}
-                // onClose={this.closeViewer}
-            />
+            <PhotoProvider>
+                <PhotoView src={img}>
+                    <img className='pb-4 img-fluid cursorPointer' src={img} alt="" />
+                </PhotoView>
+            </PhotoProvider>
+
         </div>
     );
 };
