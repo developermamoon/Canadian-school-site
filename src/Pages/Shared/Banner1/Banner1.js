@@ -30,7 +30,7 @@ const Banner1 = () => {
                     <div className="col col-md-2 p-0 text-center d-flex flex-column justify-content-center align-items-center">
                         <p className='time-text'>
                             <p className='time-text'>Local Time </p>
-                            <Clock className='fw-bold fs-4' format={'hh:mm:ss A'} ticking={true} timezone={'Canada/Atlantic'}  />
+                            <Clock className='fw-bold fs-4' format={'hh:mm:ss A'} ticking={true} timezone={'none'}  />
                         </p>
                     </div>
                 </div>

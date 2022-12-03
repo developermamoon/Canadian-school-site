@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 import Admissions from "../Pages/Admissions/Admissions";
+import Calender from "../Pages/Calender/Calender";
 import Careers from "../Pages/Careers/Careers";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import ForgetPassword from "../Pages/ForgetPassword/ForgetPassword";
@@ -54,6 +55,8 @@ const router = createBrowserRouter([
             { path: '/international-students', element: <InternationaStudents></InternationaStudents> },
 
             { path: '/careers', element: <Careers></Careers> },
+
+            { path: '/calender', element: <Calender></Calender> },
         ]
     }
 ])
